@@ -18,6 +18,13 @@ import figma from './figma.png'
 import vscode from './vscode.png'
 import jwt from './jwt.png'
 import ecommerce from './ecommerce.jpg'
+import travel from './travel.png'
+import Blog from './Blog.png'
+import attiro from './attiro.png'
+
+
+
+
 
 
 
@@ -47,6 +54,9 @@ export const assets ={
     tailwind,
     vscode,
     jwt,
-    ecommerce
+    ecommerce,
+    travel,
+    Blog,
+    attiro
 
 }

@@ -4,6 +4,9 @@ import ProjectCard from './Components/ProjectCard'
 import { assets } from './assets/pic'
 const Projects = () => {
     const pro1 = ['React', 'TailwindCSS', 'Nodejs','Express','MongoDB','javascript'];
+    const pro2 = ['React', 'Nodejs','Express','MongoDB','javascript','Stripe','SEO'];
+    const pro3= ['React', 'TailwindCSS', 'Nodejs','Express','MongoDB','javascript'];
+
     
   return (
     <div id='Projects' className='flex flex-col justify-center px-8 sm:px-15 py-15  items-center gap-8 dark:bg-slate-900 dark:text-gray-300'>
@@ -25,7 +28,7 @@ const Projects = () => {
     
   
       
-       image={assets.ecommerce}
+       image={assets.attiro}
        proName="Attiro"
        description="Built a full stack e-commerce platform for a clothing brand offering a wide range of products for men, women, and kids, with
 features like pagination, product filtering, and category-based browsing.Integrated Stripe and RazorPay payment gateways for seamless and secure transactions, ensuring a smooth checkout experience
@@ -34,21 +37,19 @@ skills={pro1}
 
 />
 <ProjectCard 
-       image={assets.ecommerce}
-       proName="Attiro"
-       description="Built a full stack e-commerce platform for a clothing brand offering a wide range of products for men, women, and kids, with
-features like pagination, product filtering, and category-based browsing.Integrated Stripe and RazorPay payment gateways for seamless and secure transactions, ensuring a smooth checkout experience
-for users" 
-skills={pro1}
+       image={assets.travel}
+       proName="efe Travels"
+       description="• Developed a dynamic web application for a tour and travel service, enabling customers to book vehicles (car, bus, sedan) based on group size and preferences, with seamless food ordering functionality. Integrated Stripe payment gateway, ensuring secure and efficient transactions, and implemented a responsive UI using
+React, backed by Node.js, Express, and MongoDB for scalable backend services." 
+skills={pro2}
 
 />
 <ProjectCard 
-       image={assets.ecommerce}
-       proName="Attiro"
-       description="Built a full stack e-commerce platform for a clothing brand offering a wide range of products for men, women, and kids, with
-features like pagination, product filtering, and category-based browsing.Integrated Stripe and RazorPay payment gateways for seamless and secure transactions, ensuring a smooth checkout experience
-for users" 
-skills={pro1}
+       image={assets.Blog}
+       proName="Blogish"
+       description="Built a full-stack blog website where users can read blogs and admins can manage blog posts (create, update, delete) via a secure admin panel using React, Node.js, Express, and MongoDB.
+Designed a responsive UI with Tailwind CSS and implemented RESTful APIs to handle dynamic content and CRUD operations efficiently." 
+skills={pro3}
 
 />
 
