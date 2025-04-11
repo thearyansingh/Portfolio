@@ -33,7 +33,7 @@ const Navbar = ({ toggleMenu, isMenuOpen, darkMode, setDarkMode }) => {
             className="p-2 rounded-full bg-gray-200 dark:bg-gray-800 transition"
             aria-label="Toggle Dark Mode"
           >
-            {darkMode ? <BsSun className="w-6 h-6" /> : <CiDark className="w-6 h-6" />}
+            {!darkMode ? <BsSun className="w-6 h-6" /> : <CiDark className="w-6 h-6" />}
           </button>
           <button className="flex items-center gap-2 px-6 py-2 rounded-full border border-gray-500 shadow transition-transform duration-300 hover:scale-110">
             Contact <MdArrowOutward className="h-5 w-5 text-gray-500" />
