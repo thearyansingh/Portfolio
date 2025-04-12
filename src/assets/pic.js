@@ -23,8 +23,9 @@ import Blog from './Blog.png'
 import attiro from './attiro.png'
 import github from './github.png'
 
-import Linkedin from './Linkedin.png'
 import leet from './leet.png'
+import linkedin from './linkedin.png'
+
 
 
 
@@ -64,7 +65,7 @@ export const assets ={
     Blog,
     attiro,
     github,
-    Linkedin,
+    linkedin,
     leet
 
 }

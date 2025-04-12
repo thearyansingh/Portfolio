@@ -43,28 +43,37 @@ const About = () => {
         <div className='ovo-regular sm:w-[50%] flex flex-col gap-5 justify-start   '>
 <p className='text-lg'>
 I am an experienced Full-Stack Developer with over a decade of professional expertise in the field. Throughout my career, I have had the privilege of collaborating with prestigious organizations, contributing to their success and growth.</p>
-       <div className='flex flex-col sm:flex-row  gap-3'>
-       <Card icon={<FaCode className='h-10 w-10' />} text="Languages" languages="HTML, CSS, JavaScript React Js, Next Js"/>
-       <Card icon={<MdOutlineSchool  className='h-10 w-10' />} text="Education" languages="Master Of Computer Application (MCA)"/>
-       <Card icon={<IoBagHandleSharp  className='h-10 w-10' />} text="Projects" languages="Built more then 5 Projects"/>
+       <div className='flex flex-col sm:flex-row    gap-3'>
+        <div className='bg-gradient-to-br from-[#440e37] via-[#4a2272] to-[#61287f]'>
+        <Card icon={<FaCode className='h-10 w-10' />} text="Languages" languages="HTML, CSS, JavaScript React Js, Next Js"/>
+
+        </div>
+        <div className='bg-gradient-to-br from-[#440e37] via-[#4a2272] to-[#61287f]'>
+        <Card icon={<MdOutlineSchool  className='h-10 w-10' />} text="Education" languages="Master Of Computer Application (MCA)"/>
+
+        </div>
+        <div className='bg-gradient-to-br from-[#440e37] via-[#4a2272] to-[#61287f]'>
+        <Card icon={<IoBagHandleSharp  className='h-10 w-10' />} text="Projects" languages="Built more then 5 Projects"/>
+
+        </div>
       
        </div>
        
        <p className='text-lg font-semibold'>Tools I use </p>
        <div className='flex gap-6 '>
-       <div className ="h-12 w-12 rounded-lg p-2  border-2 border-gray-500  "> 
+       <div className ="h-12 w-12 rounded-lg p-2  border-2 bg-gradient-to-br from-[#440e37] via-[#4a2272] to-[#61287f] border-gray-500  "> 
         <img src={git} alt="" />
        </div>
-       <div className ="h-12 w-12 rounded-lg p-2  border-2  border-gray-500  "> 
+       <div className ="h-12 w-12 rounded-lg p-2  border-2 bg-gradient-to-br from-[#440e37] via-[#4a2272] to-[#61287f]  border-gray-500  "> 
         <img src={firebase} alt="" />
        </div>
-       <div className ="h-12 w-12 rounded-lg p-2  border-2  border-gray-500 "> 
+       <div className ="h-12 w-12 rounded-lg p-2  border-2 bg-gradient-to-br from-[#440e37] via-[#4a2272] to-[#61287f]  border-gray-500 "> 
         <img src={mongodb} alt="" />
        </div>
-       <div className ="h-12 w-12 rounded-lg p-2  border-2  border-gray-500 "> 
+       <div className ="h-12 w-12 rounded-lg p-2  border-2 bg-gradient-to-br from-[#440e37] via-[#4a2272] to-[#61287f]  border-gray-500 "> 
         <img src={figma} alt="" />
        </div>
-       <div className ="h-12 w-12 rounded-lg p-2  border-2  border-gray-500  "> 
+       <div className ="h-12 w-12 rounded-lg p-2  border-2 bg-gradient-to-br from-[#440e37] via-[#4a2272] to-[#61287f]  border-gray-500  "> 
         <img src={vscode} alt="" />
        </div>
        </div>

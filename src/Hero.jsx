@@ -14,7 +14,7 @@ const Hero = () => {
   
     return (
       
-      <section id='Home' className="flex flex-col  sm:flex-row items-center justify-center pt-30 pb-20  border-slate-800  sm:mt-5 px-10 dark:bg-[#0F172A] dark:text-gray-300">
+      <section id='Home' className="flex flex-col  sm:flex-row items-center justify-center pt-30 pb-20  border-slate-800  sm:mt-5 px-5 sm:px-10 dark:bg-[#0F172A] dark:text-gray-300">
         <div className="w-full sm:w-1/2 space-y-2 flex flex-col justify-center">
           <motion.h1  variants={container(0)} initial="hidden" animate="visible" className="robotos text-6xl font-bold">Hi, I'm Aryan Singh</motion.h1>
           <motion.p  variants={container(0.5)} initial="hidden" animate="visible" className="text-4xl font-bold bg-gradient-to-r from-purple-500 via-pink-200 to-red-200 bg-clip-text text-transparent animate-gradient">I am a Full-Stack Developer</motion.p>

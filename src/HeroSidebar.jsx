@@ -2,6 +2,7 @@ import React from 'react'
 import { FiMenu, FiX } from 'react-icons/fi';
 
 import { MdArrowOutward } from "react-icons/md";
+import { assets } from './assets/pic';
 
 const HeroSidebar = ({ isMenuOpen, toggleMenu }) => {
     return (
@@ -18,6 +19,11 @@ const HeroSidebar = ({ isMenuOpen, toggleMenu }) => {
               <li key={item} className="text-gray-700 dark:text-gray-300 hover:text-gray-900 cursor-pointer">{item}</li>
             ))}
           </ul>
+             <div className='flex space-y-4 px-6 gap-4'>
+                      <a href='https://www.linkedin.com/in/aryan-singh-a49b92226/'> <img className='h-5 w-5' src={assets.linkedin} alt="" /></a> 
+                      <a href='https://github.com/thearyansingh'> <img  className='h-5 w-5' src={assets.github} alt="" /></a>      
+                    <a href='https://leetcode.com/u/singharyan5656/'> <img   className='h-5 w-5' src={assets.leet} alt="" /></a>   
+                    </div>
           <div className="px-6 pt-4">
             <button className="w-full flex items-center justify-center px-6 py-2 border border-gray-500 rounded-full hover:scale-110">
               Contact <MdArrowOutward className="h-5 w-5 text-gray-500 ml-2" />

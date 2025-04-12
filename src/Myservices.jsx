@@ -5,7 +5,7 @@ import {motion} from "framer-motion"
 
 const Myservices = () => {
   return (
-    <div id='Skills' className='flex flex-col justify-center px-15 py-28 ovo-regular items-center gap-8 dark:bg-[#0F172A] dark:text-gray-300'>
+    <div id='Skills' className='flex flex-col justify-center px-5 sm:px-20 py-28 ovo-regular items-center gap-8 dark:bg-[#0F172A] dark:text-gray-300'>
        
         <motion.h1  
          whileInView={{opacity:1, y:0}} 

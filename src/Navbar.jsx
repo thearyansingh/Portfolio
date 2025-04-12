@@ -37,7 +37,7 @@ const Navbar = ({ toggleMenu, isMenuOpen, darkMode, setDarkMode }) => {
             {!darkMode ? <BsSun className="w-6 h-6" /> : <CiDark className="w-6 h-6" />}
           </button>
           <div className='flex flex-row gap-5 '>
-            <a href='https://www.linkedin.com/in/aryan-singh-a49b92226/'> <img className='h-5 w-5' src={assets.Linkedin} alt="" /></a> 
+            <a href='https://www.linkedin.com/in/aryan-singh-a49b92226/'> <img className='h-5 w-5' src={assets.linkedin} alt="" /></a> 
             <a href='https://github.com/thearyansingh'> <img  className='h-5 w-5' src={assets.github} alt="" /></a>      
           <a href='https://leetcode.com/u/singharyan5656/'> <img   className='h-5 w-5' src={assets.leet} alt="" /></a>   
           </div>

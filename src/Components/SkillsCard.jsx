@@ -11,7 +11,7 @@ const SkillsCard = ({
   pic7,
 }) => {
   return (
-    <div className="flex flex-col p-8 gap-5 ">
+    <div className="flex flex-col p-5 gap-5 ">
       <p className="text-2xl ovo-regular  font-bold">{technology}</p>
       
       <div className="flex flex-wrap gap-4  items-center  ">
