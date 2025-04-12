@@ -21,6 +21,11 @@ import ecommerce from './ecommerce.jpg'
 import travel from './travel.png'
 import Blog from './Blog.png'
 import attiro from './attiro.png'
+import github from './github.png'
+
+import Linkedin from './Linkedin.png'
+import leet from './leet.png'
+
 
 
 
@@ -57,6 +62,9 @@ export const assets ={
     ecommerce,
     travel,
     Blog,
-    attiro
+    attiro,
+    github,
+    Linkedin,
+    leet
 
 }

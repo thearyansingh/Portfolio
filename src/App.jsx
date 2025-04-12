@@ -15,6 +15,8 @@ const App = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [darkMode, setDarkMode] = useState(localStorage.getItem("theme") === "light");
 
+  
+  
   useEffect(() => {
    
     if (darkMode) {
@@ -29,9 +31,9 @@ const App = () => {
   return (
     <div >
       <Navbar toggleMenu={() => setIsMenuOpen(!isMenuOpen)} isMenuOpen={isMenuOpen} darkMode={darkMode} setDarkMode={setDarkMode} />
-      <section id='Home'>
+      
       <Hero />
-      </section>
+     
    
      <About/>
     

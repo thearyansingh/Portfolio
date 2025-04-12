@@ -4,6 +4,7 @@ import { MdArrowOutward } from 'react-icons/md';
 
 
 import { BsSun } from "react-icons/bs";
+import { assets } from './assets/pic';
 const Navbar = ({ toggleMenu, isMenuOpen, darkMode, setDarkMode }) => {
   const scrollToSection = (id) => {
     const section = document.getElementById(id);
@@ -27,7 +28,7 @@ const Navbar = ({ toggleMenu, isMenuOpen, darkMode, setDarkMode }) => {
           ))}
         </div>
 
-        <div className="hidden md:flex items-center gap-6">
+        <div className=" hidden md:flex flex-row items-center gap-5">
           <button
             onClick={() => setDarkMode(!darkMode)}
             className="p-2 rounded-full bg-gray-200 dark:bg-gray-800 transition"
@@ -35,13 +36,18 @@ const Navbar = ({ toggleMenu, isMenuOpen, darkMode, setDarkMode }) => {
           >
             {!darkMode ? <BsSun className="w-6 h-6" /> : <CiDark className="w-6 h-6" />}
           </button>
-          <button className="flex items-center gap-2 px-6 py-2 rounded-full border border-gray-500 shadow transition-transform duration-300 hover:scale-110">
+          <div className='flex flex-row gap-5 '>
+            <a href='https://www.linkedin.com/in/aryan-singh-a49b92226/'> <img className='h-5 w-5' src={assets.Linkedin} alt="" /></a> 
+            <a href='https://github.com/thearyansingh'> <img  className='h-5 w-5' src={assets.github} alt="" /></a>      
+          <a href='https://leetcode.com/u/singharyan5656/'> <img   className='h-5 w-5' src={assets.leet} alt="" /></a>   
+          </div>
+          <button  onClick={() => scrollToSection("Contact")} className="flex items-center gap-2 px-6 py-2 rounded-full border border-gray-500 shadow transition-transform duration-300 hover:scale-110">
             Contact <MdArrowOutward className="h-5 w-5 text-gray-500" />
           </button>
         </div>
 
         <div className="md:hidden flex items-center gap-4">
-          <button onClick={() => setDarkMode(!darkMode)}>{darkMode ? <BsSun className="w-6 h-6" /> : <CiDark className="w-6 h-6" />}</button>
+          <button onClick={() => setDarkMode(!darkMode)}>{darkMode ?<CiDark className="w-6 h-6" /> : <BsSun className="w-6 h-6" /> }</button>
           <button onClick={toggleMenu} className="p-2 rounded-md">
             {isMenuOpen ? <FiX className="h-6 w-6" /> : <FiMenu className="h-6 w-6" />}
           </button>
