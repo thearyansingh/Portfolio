@@ -26,7 +26,8 @@ const Hero = () => {
 🔐 Authentication & Security: JWT, OAuth, Role-Based Access Control
 
             </motion.p>
-          <motion.button  variants={container(1)} initial="hidden" animate="visible" className="mt-6 px-3 py-3 w-[60%]  sm:w-[30%] bg-violet-600 text-white rounded-full shadow-md hover:bg-violet-700">See Resume</motion.button>
+          
+       <a href="https://drive.google.com/file/d/1ABCks1YxNY93NXSNaaW571VIPsCpAA8u/view?usp=drive_link"><motion.button  variants={container(1)} initial="hidden" animate="visible" className="mt-6 px-3 py-3 w-[60%]  sm:w-[30%] bg-violet-600 text-white rounded-full shadow-md hover:bg-violet-700">See Resume</motion.button></a>   
         </div>
         <div  className="w-full sm:w-[60%] flex justify-center mt-6 sm:mt-0">
           < motion.img initial={{x:100, opacity:0}} animate={{x:0, opacity:1}} transition={{duration:1, delay:1.2}} src={removed} className="w-full sm:w-3/5" alt="Profile" />
