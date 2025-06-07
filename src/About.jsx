@@ -1,5 +1,5 @@
 import React from 'react'
-import about from "./assets/about.png"
+// import about from "./assets/about.png"
 import Card from './Components/Card'
 import { FaCode } from "react-icons/fa";
 import { MdOutlineSchool } from "react-icons/md";
@@ -11,6 +11,7 @@ import figma from "./assets/figma.png"
 import git from "./assets/git.png"
 import vscode from "./assets/vscode.png"
 import {motion} from "framer-motion"
+import { assets } from './assets/pic';
 
 const container = (delay) =>({
   hidden:{y:-50, opacity:0},
@@ -36,20 +37,21 @@ const About = () => {
       <motion.div  initial={{ opacity: -1 }}
   whileInView={{ opacity:1}}
   transition={{ duration: 2 }} 
-       className=' flex flex-col sm:flex-row justify-center gap-16 px-8 items-center '>
-        <div className='rounded-xl sm:w-[30%]   border-2 bg-gray-300'>
-        <img  src={about} className='' alt="" />
+       className=' flex flex-col sm:flex-row justify-center gap-20 px-8 items-center '>
+        <div className='rounded-xl sm:w-[25%]  object-cover drop-shadow-[0_10px_20px_rgba(130,69,236,0.5)] '>
+        <img  src={assets.about} className='rounded-full' alt="" />
         </div>
         <div className='ovo-regular sm:w-[50%] flex flex-col gap-5 justify-start   '>
 <p className='text-lg'>
 I am an experienced Full-Stack Developer with over a decade of professional expertise in the field. Throughout my career, I have had the privilege of collaborating with prestigious organizations, contributing to their success and growth.</p>
        <div className='flex flex-col sm:flex-row    gap-3'>
         <div className='bg-gradient-to-br from-[#440e37] via-[#4a2272] to-[#61287f]'>
-        <Card icon={<FaCode className='h-10 w-10' />} text="Languages" languages="HTML, CSS, JavaScript React Js, Next Js"/>
+        <Card icon={<FaCode className='h-10 w-10' />} text="Languages" languages="Java, JavaScript   C , React, Next Js"/>
 
         </div>
         <div className='bg-gradient-to-br from-[#440e37] via-[#4a2272] to-[#61287f]'>
-        <Card icon={<MdOutlineSchool  className='h-10 w-10' />} text="Education" languages="Master Of Computer Application (MCA)"/>
+        <Card icon={<MdOutlineSchool  className='h-10 w-10' />} text="Education" languages="Master Of Computer Application (MCA)" 
+      />
 
         </div>
         <div className='bg-gradient-to-br from-[#440e37] via-[#4a2272] to-[#61287f]'>

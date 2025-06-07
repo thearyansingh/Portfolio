@@ -15,6 +15,8 @@ import docker from './docker.png'
 import AWS from './amazon.png'
 import firebase from './firebase.png'
 import figma from './figma.png'
+import about from './AAbout.png'
+
 import vscode from './vscode.png'
 import jwt from './jwt.png'
 import ecommerce from './ecommerce.jpg'
@@ -66,6 +68,7 @@ export const assets ={
     attiro,
     github,
     linkedin,
-    leet
+    leet,
+    about
 
 }

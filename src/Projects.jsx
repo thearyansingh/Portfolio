@@ -34,6 +34,7 @@ const Projects = () => {
 features like pagination, product filtering, and category-based browsing.Integrated Stripe and RazorPay payment gateways for seamless and secure transactions, ensuring a smooth checkout experience
 for users" 
 skills={pro1}
+Link={"https://github.com/thearyansingh/Attiro1"}
 
 />
 <ProjectCard 
@@ -43,6 +44,8 @@ skills={pro1}
 React, backed by Node.js, Express, and MongoDB for scalable backend services." 
 skills={pro2}
 
+
+
 />
 <ProjectCard 
        image={assets.Blog}
@@ -50,6 +53,7 @@ skills={pro2}
        description="Built a full-stack blog website where users can read blogs and admins can manage blog posts (create, update, delete) via a secure admin panel using React, Node.js, Express, and MongoDB.
 Designed a responsive UI with Tailwind CSS and implemented RESTful APIs to handle dynamic content and CRUD operations efficiently." 
 skills={pro3}
+Link={"https://github.com/thearyansingh/Blog_website"}
 
 />
 

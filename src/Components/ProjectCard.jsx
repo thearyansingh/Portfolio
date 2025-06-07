@@ -1,6 +1,6 @@
 import React from 'react'
 
-const ProjectCard = ({image,proName,description,skills,code}) => {
+const ProjectCard = ({image,proName,description,skills,code,Link}) => {
   return (
     <div className='flex flex-col gap-3  p-4 border-2 justify-start border-[#171717] rounded-xl bg-[#171717] '>
       <img className='rounded-xl' src={image} alt="proimage " />
@@ -13,7 +13,9 @@ const ProjectCard = ({image,proName,description,skills,code}) => {
     ))
   }
      </div>
-  <button className='w-1/3 p-2 text-sm font-bold rounded-full border-2 bg-slate-800 border-amber-50'>Source Code</button>
+    
+  <a href={Link} className='w-1/3 text-center p-2 text-sm font-bold rounded-full border-2 bg-slate-800 border-amber-50'>Source Code</a>
+   
     </div>
   
   )
